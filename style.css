@@ -1,4 +1,10 @@
 body {
-    background-image: url("images/victoria.jpg");
-    background-position: center;
+    background-image: url(images/victoria.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    right: 0;
 }
