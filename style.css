@@ -1,13 +1,5 @@
 body {
     background-color: black;
-    background-image: url(images/victoria.png);
-    background-position: right;
-    background-size: 657px;
-    width: 200px;
-    height: 500px;
-    border-top: 0px;
-    margin-top: 0px;
-    background-repeat: no-repeat;
 
 }
 h1 { 
@@ -33,4 +25,18 @@ div.text--wrapper {
     margin-top: 100px;
     text-align: left;
     word-wrap: normal;
-}td
+}
+div.background--wrapper {
+    background-image: url(images/victoria.png);
+    background-position: right;
+    background-size: 600px;
+    width: 60%;
+    height: 100vh;
+    border-top: 0px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+}
+div.main--wrapper{
+    display: flex;
+
+}
