@@ -19,12 +19,12 @@ span {
     letter-spacing: normal;
 }
 div.text--wrapper {
+    width: 40%;
     font-family: Dosis;
     font-size: 50px;
-    margin-left: 50px;
-    margin-top: 100px;
     text-align: left;
     word-wrap: normal;
+    margin-left: 7%;
 }
 div.background--wrapper {
     background-image: url(images/victoria.png);
@@ -38,5 +38,4 @@ div.background--wrapper {
 }
 div.main--wrapper{
     display: flex;
-
 }
