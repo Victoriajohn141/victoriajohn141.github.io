@@ -28,12 +28,12 @@ div.text--wrapper {
 }
 div.background--wrapper {
     background-image: url(images/victoria.png);
-    background-position: right;
-    background-size: 600px;
+    background-position: center;
+    background-size: auto;
     width: 60%;
     height: 100vh;
     border-top: 0px;
-    margin-top: 0px;
+    margin-top: 40px;
     background-repeat: no-repeat;
 }
 div.main--wrapper{
