@@ -14,26 +14,27 @@ p {
 }
 span {
     color: red;
-    font-size: 90px;
+    font-size: 350px;
     font-weight: px;
     letter-spacing: normal;
 }
 div.text--wrapper {
     width: 40%;
+    height: 100vh;
     font-family: Dosis;
-    font-size: 50px;
+    font-size: 200px;
     text-align: left;
     word-wrap: normal;
     margin-left: 7%;
 }
 div.background--wrapper {
-    background-image: url(images/victoria.png);
+    background-image: url(images/victoria.jpg);
     background-position: center;
-    background-size: auto;
+    background-size:contain;
     width: 60%;
+    float: right;
     height: 100vh;
     border-top: 0px;
-    margin-top: 40px;
     background-repeat: no-repeat;
 }
 div.main--wrapper{
