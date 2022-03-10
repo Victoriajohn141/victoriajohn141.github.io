@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body {
     background-color: black;
 
@@ -21,9 +25,10 @@ div.text--wrapper {
     height: 100vh;
     font-family: Dosis;
     font-size: 80px;
-    text-align: left;
+    text-align: center;
     word-wrap: normal;
     margin-left: 7%;
+   padding-top: 300px; 
 }
 div.background--wrapper {
     background-image: url(images/victoria.jpg);
