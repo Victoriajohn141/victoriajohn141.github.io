@@ -5,7 +5,6 @@ body {
 h1 { 
     text-decoration: solid;
     color: white;
-    font-weight: 400px;
     letter-spacing: normal;
 }
 p {
@@ -14,15 +13,14 @@ p {
 }
 span {
     color: red;
-    font-size: 350px;
-    font-weight: px;
+    font-size: 160px;
     letter-spacing: normal;
 }
 div.text--wrapper {
     width: 40%;
     height: 100vh;
     font-family: Dosis;
-    font-size: 200px;
+    font-size: 80px;
     text-align: left;
     word-wrap: normal;
     margin-left: 7%;
