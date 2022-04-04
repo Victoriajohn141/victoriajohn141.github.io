@@ -9,37 +9,38 @@ body {
 h1 { 
     text-decoration: solid;
     color: white;
-    letter-spacing: normal;
 }
 p {
     color: white;
-    
 }
 span {
     color: red;
-    font-size: 160px;
     letter-spacing: normal;
 }
-div.text--wrapper {
+.text-wrapper {
     width: 40%;
     height: 100vh;
     font-family: Dosis;
-    font-size: 80px;
-    text-align: center;
-    word-wrap: normal;
+    font-size: 75px;
     margin-left: 7%;
-   padding-top: 300px; 
+   margin-top: 100px;
+   margin-right: 100px;
 }
-div.background--wrapper {
-    background-image: url(images/victoria.jpg);
+.image-wrapper {
     background-position: center;
-    background-size:contain;
+    background-size: auto;
     width: 60%;
-    float: right;
-    height: 100vh;
-    border-top: 0px;
+    margin-top: px;
     background-repeat: no-repeat;
+    margin-left: 100px;
+    margin-right: 20px;
 }
-div.main--wrapper{
+.main--wrapper{
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 100px;
+}
+img{
+    height: 40%;
 }
